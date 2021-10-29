@@ -1,0 +1,22 @@
+.square {
+    height: 60px;
+    width: 60px;
+    margin: 40px auto;
+    display: flex;
+}
+
+#square_blue {
+    background-color: blue;
+}
+
+#square_green {
+    background-color: green;
+}
+
+#square_red {
+    background-color: red;
+}
+
+#square_maroon {
+    background-color: maroon;
+}

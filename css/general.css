@@ -1,0 +1,169 @@
+/* h1 {
+    background-color: #F35C18;
+    color: rgb(252, 212, 182)
+}
+
+h2 {
+    color: salmon;
+}
+
+#newdiv {
+    background-color: rebeccapurple !important;
+}
+
+div {
+    background-color: springgreen !important;
+} */
+
+.main_link {
+    background-color: seashell;
+    text-decoration: none;
+}
+
+#current_page {
+    background-color: rgb(146, 144, 37);
+}
+
+.main_link:hover {
+    background-color: greenyellow;
+}
+
+#firstname:active {
+    background-color: yellow;
+}
+/* div span {
+    background-color: turquoise;
+} */
+
+/* div,span {
+    color: blue;
+} */
+
+
+* {
+    font-family:'Times New Roman', Times, serif
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 2px 0px yellow;
+    
+}
+/* 
+h2 {
+    /* text-indent: 50px; */
+
+
+li {
+    list-style: initial;
+}
+
+
+ol > li {
+    list-style:upper-roman;
+    list-style-position:inside
+}
+
+ul > li {
+    list-style: url("..//images/blue_dot.png") circle inside; 
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* 1. photo of building 
+2. photo of your current president
+3.Photp of the first carshop branch 
+4. photo of your employee
+5.photo of your awards
+6.photp of you project */
+
+.about_us_photo {
+    height: 350px;
+    width: 350px;
+    background-color: lightcoral;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    /* background-position: 40px 0px ; */
+    background-attachment: local;
+    background-size:contain ;
+    border: 15px solid lightgoldenrodyellow;
+    /* border-radius: 40px; */
+    box-shadow: 15px 15px 0px red;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px;
+}
+
+#photo1 {
+    /* background-image: url("../images/president\ .jpeg") */
+    background: blue url("../images/president\ .jpeg") repeat-y center;
+    /* margin: 10px 20px 30px 40px ; */
+    /* position: relative;
+    left: 60px;
+    top: 100px; */
+   
+}
+
+#photo2 {
+    background-image: url("../images/employee_manager.jpeg");
+    /* padding: 75px; */
+    /* overflow: hidden; */
+    box-sizing: content-box;
+    /* position: relative; */
+
+    
+}
+
+#photo3 {
+    background-image: url("../images/employee_salahyland.jpeg")
+}
+
+#photo4 {
+    background-image: url("../images/employee_RossGeller.jpeg")
+}
+
+#photo5 {
+    background-image: url("../images/employee_1.jpeg")
+}
+
+#photo6 {
+    background-image: url("")
+}
+
+#container {
+    width:85%;
+    margin: auto;
+    background-color: blue;
+}
+
+#main_banner {
+    width: 85%;
+}
+
+table {
+    empty-cells: show;
+    /* border-spacing: 10px; */
+    border-collapse: collapse;
+}
+
+#blue_dot {
+    float: right;
+}
+
+#test_paragraph {
+    clear: both;
+}
+
+footer {
+    text-align:center;
+    padding: 10px 0px;
+    color: white;
+    background-color: maroon;
+}
