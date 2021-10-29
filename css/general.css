@@ -85,8 +85,8 @@ ul {
 6.photp of you project */
 
 .about_us_photo {
-    height: 350px;
-    width: 350px;
+    height: 200px;
+    width: 200px;
     background-color: lightcoral;
     margin-bottom: 10px;
     background-repeat: no-repeat;
@@ -134,13 +134,13 @@ ul {
 }
 
 #photo6 {
-    background-image: url("")
+    background-image: url("../images/Carshop\ Headquaters.jpeg")
 }
 
 #container {
     width:85%;
     margin: auto;
-    background-color: blue;
+    
 }
 
 #main_banner {
@@ -167,3 +167,5 @@ footer {
     color: white;
     background-color: maroon;
 }
+
+
